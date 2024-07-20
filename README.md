@@ -60,7 +60,7 @@ Subject: <subject string, max 50 characters>\
 From: <username>@<domain_name>\
 To: <username>@<domain_name>\
 Subject: <subject string, max 100 characters>\
-Received: time in date hour minute
+Received: time in date hour minute\
 <Message body, same as recieved to the server>
 
 
