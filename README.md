@@ -49,19 +49,19 @@ In this project, I designed and implemented a simple mail server and client usin
 ### Email Format
 
 #### For Sending:
-From: <username>@<domain_name>
-To: <username>@<domain_name>
-Subject: <subject string, max 50 characters>
-<Message body, terminated by a line with only a fullstop>
+From: <username>@<domain_name>__
+To: <username>@<domain_name>__
+Subject: <subject string, max 50 characters>__
+<Message body, terminated by a line with only a fullstop>__
 
 
 
 #### For Storing in the server:
-From: <username>@<domain_name>
-To: <username>@<domain_name>
-Subject: <subject string, max 100 characters>
-Received: <time in date : hour : minute>
-<Message body>
+From: <username>@<domain_name>__
+To: <username>@<domain_name>__
+Subject: <subject string, max 100 characters>__
+Received: <time in date : hour : minute>__
+<Message body>__
 
 
 
@@ -75,11 +75,11 @@ Received: <time in date : hour : minute>
 - QUIT
 
 #### SMTP Replies:
-- 220 `<domain name>` Service Ready
-- 221 `<domain name>` Service closing transmission channel
-- 250 OK `<message>`
-- 354 Start mail input; end with `<CRLF>.<CRLF>`
-- 550 No such user
+- 220 `<domain name>` Service Ready__
+- 221 `<domain name>` Service closing transmission channel__
+- 250 OK `<message>`__
+- 354 Start mail input; end with `<CRLF>.<CRLF>`__
+- 550 No such user__
 
 #### POP3 Commands:
 - STAT
